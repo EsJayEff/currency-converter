@@ -1,0 +1,28 @@
+{
+  "name": "@esjayeff/currency-converter",
+  "version": "1.0.0",
+  "description": "\"# currency-converter\"",
+  "main": "index.js",
+  "type": "module",
+   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EsJayEff/currency-converter.git"
+  },
+  "keywords": ["currency","converter"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EsJayEff/currency-converter/issues"
+  },
+  "homepage": "https://github.com/EsJayEff/currency-converter#readme",
+  "dependencies": {
+    "currency-converter-lt": "^2.0.0-beta.0",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
