@@ -1,6 +1,6 @@
 {
-  "name": "esjayeff-currency-converter",
-  "version": "1.0.1",
+  "name": "esjaycurrconv",
+  "version": "1.0.0",
   "description": "\"# currency-converter\"",
   "main": "index.js",
   "type": "module",
