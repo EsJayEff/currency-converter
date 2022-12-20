@@ -1,5 +1,3 @@
-#!usr/bin/env node
-
 import inquirer from "inquirer";
 import CurrencyConverter from "currency-converter-lt" ;
 const CC = CurrencyConverter;
@@ -73,11 +71,13 @@ let currencyConverter = new CC(
                 message: "Do you want more Currency Rates Y/N: ",
             });
             if (again.restart == "y" || again.restart == "Y"){
-            askQuestion();
+            await askQuestion();
             }
-            console.log("Thanks for using EsJay's Currency Converter.");
+            else{
+              console.log("Thanks for using EsJay's Currency Converter.");
+            }
             };
-        };
+            };
     await askQuestion();
 
 
